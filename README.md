@@ -1,5 +1,5 @@
 # PoF-v1
-Code of PoF: Post-Training of Feature Extractor for Improving Generalization [1].  This source code reproduces the results in [1] using Wide ResNet [2] trained on CIFAR-10, CIFAR-100[3], SVHN[4], and Fashion-MNIST [5].
+Code of PoF: Post-Training of Feature Extractor for Improving Generalization [1].  The source codes reproduce the results in [1] using Wide ResNet [2] trained on CIFAR-10, CIFAR-100[3], SVHN[4], and Fashion-MNIST [5], with data augmentation including cutout [6].
 
 ## Requirements
 
@@ -36,6 +36,9 @@ Guoquing Liu, (formerly) Denso IT Laboratory, Inc.
 [4] Netzer Y, Wang T, Coates A, Bissacco A, Wu B, and Ng A. Y, "Reading digits in natural images with unsupervised feature learning", NeurIPS Workshop, 2011.
 
 [5] Xiao H, Rasul K, and Vollgraf R, "Fashion-mnist: a novel image dataset for benchmarking machine learning algorithms", 2017
+
+[6] DeVries, T., & Taylor, G. W. (2017). Improved regularization of convolutional neural networks with cutout. arXiv preprint arXiv:1708.04552.
+
 ## LICENSE
 
 Copyright (C) 2022 Denso IT Laboratory, Inc.
