@@ -1,6 +1,10 @@
 # PoF-v1
 Code of PoF: Post-Training of Feature Extractor for Improving Generalization [1].  The source codes reproduce the results in [1] using Wide ResNet [2] trained on CIFAR-10, CIFAR-100[3], SVHN[4], and Fashion-MNIST [5], with data augmentation including cutout [6].
 
+Trained parameters can be found here: https://d-itlab.s3.ap-northeast-1.amazonaws.com/PoF/pretrained_models.zip
+WRN_C10_pretrained_bySAM: WideResNet-28-10 trained with SAM on CIFAR-10 for 200 epochs (same setting as in Table 1 in [1]).
+WRN_C10_pretrained_bySAM2PoF: WideResNet-28-10 post-trained with PoF on CIFAR-10 for 50 epochs, started with WRN_C10_pretrained_bySAM (same setting as in Table 1 in [1]).
+
 ## Requirements
 
 - computer running Linux
